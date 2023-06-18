@@ -1,6 +1,5 @@
 <template>
-  <header class="">
-
+  <header class="bg-slate-400">
     <!-- desktop -->
     <!-- <section class="h-24 flex items-center justify-between container mx-auto px-4 lg:px-0">
       <div class="logo">
@@ -27,7 +26,7 @@
           <Bar/>
         </div>
       </div>
-      <div class="absolute top-24 left-0 right-0 w-full text-center">
+      <div class="absolute top-24 left-0 right-0 w-full text-center bg-white">
         <nav>
           <ul class="text-basic font-medium">
             <li><NuxtLink class="w-full" to="#">Home</NuxtLink></li>
