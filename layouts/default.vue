@@ -15,3 +15,12 @@ import Footer from '~~/components/Footer.vue';
     Footer
   }
 </script>
+
+<style>
+  *{
+    font-family: 'Inter', sans-serif;
+  }
+  img{
+    pointer-events: none;
+  }
+</style>
