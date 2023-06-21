@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <Footer />
   </div>
 </template>
@@ -22,5 +24,11 @@ import Footer from '~~/components/Footer.vue';
   }
   img{
     pointer-events: none;
+  }
+  .nuxt-icon--fill, .nuxt-icon--fill * {
+    fill: none !important;
+  }
+  .nuxt-icon{
+    margin-bottom: 0;
   }
 </style>
