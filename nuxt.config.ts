@@ -12,5 +12,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-svgo',
+    '@nuxt/content',
   ],
 })

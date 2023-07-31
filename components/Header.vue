@@ -7,10 +7,10 @@
       </div>
       <nav>
         <ul class="flex text-a font-normal text-lg">
-          <li v-for="item in link"><NuxtLink class="px-4 py-6 mx-2 hover:font-normal transition-all" :to=item.link>{{item.title}}</NuxtLink></li>
+          <li v-for="item in link" :key="item"><NuxtLink class="px-4 py-6 mx-2 hover:font-normal transition-all" :to=item.link>{{item.title}}</NuxtLink></li>
         </ul>
       </nav>
-      <NuxtLink class="py-2 px-7 rounded-lg bg-b font-medium text-lg text-a" to="#">Download</NuxtLink>
+      <NuxtLink class="py-2 px-7 rounded-lg bg-b font-medium text-lg text-a" to="#download">Download</NuxtLink>
     </section>
     <!-- ------ -->
   
@@ -24,13 +24,13 @@
           <i @click="Navbar" class="fi fi-br-menu-burger text-4xl w-9 h-9 inline-block text-a"></i>
         </div>
       </div>
-      <div ref="navbar" class="fixed top-24 left-0 right-0 w-full text-center bg-e px-5 overflow-hidden max-h-0 transition-all">
+      <div ref="navbar" class="fixed top-24 left-0 right-0 w-full text-center bg-e px-5 overflow-hidden max-h-0 transition-all duration-300">
         <nav>
           <ul class="text-a font-medium">
-            <li v-for="item in link"><NuxtLink @click="Navbar" class="inline-block w-full py-6" :to=item.link>{{ item.title }}</NuxtLink></li>
+            <li v-for="item in link" :key="item"><NuxtLink @click="Navbar" class="inline-block w-full py-6" :to=item.link>{{ item.title }}</NuxtLink></li>
           </ul>
         </nav>
-        <NuxtLink class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-b" to="#">Download</NuxtLink>
+        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-b" to="#download">Download</NuxtLink>
       </div>
     </section>
     <!-- ------- -->
@@ -42,10 +42,10 @@ export default {
   data() {
     return {
       link: [
-        { title: "Home", link: "#" },
+        { title: "Home", link: "/" },
         { title: "About us", link: "#aboutus" },
-        { title: "Features", link: "#" },
-        { title: "FaQ", link: "#" },
+        { title: "Features", link: "#features" },
+        { title: "FaQ", link: "#faq" },
       ]
     }
   },

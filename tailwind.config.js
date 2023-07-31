@@ -8,7 +8,8 @@ module.exports = {
       'b': '#8ecae6',
       'c': '#ececec',
       'd' : '#219ebc',
-      'e' : '#fff',
+      'e': '#fff',
+      'f' : '#ffb703'
     },
     },
     

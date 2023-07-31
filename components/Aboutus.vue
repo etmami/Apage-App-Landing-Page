@@ -1,5 +1,5 @@
 <template>
-  <section id="aboutus" class="py-10">
+  <section id="aboutus" class="py-28 scroll-mt-2">
     <div class="container m-auto px-4">
       <!-- Goal and vision -->
       <div class="text-a text-center">
@@ -14,24 +14,24 @@
         </div>
         <div class="lg:w-1/2">
           <ul>
-            <li v-for="item in listdata" :key="item" @click="OpenBox(item)" class="border border-a rounded-md px-3 py-1 max-h-full mt-4 lg:mt-0 lg:mb-4">
+            <li v-for="item in listdata" :key="item" @click="OpenBox(item)" class="border border-a rounded-md px-3 py-3 max-h-full mt-4 lg:mt-0 lg:mb-4">
               <div class="flex justify-between items-center cursor-pointer">
-                <h3 class="text-a font-medium">{{ item.title }}</h3>
+                <h3 class="text-a font-medium select-none">{{ item.title }}</h3>
                 <div>
-                  <i v-if="!item.isOpen" class="fi fi-rr-angle-small-down text-4xl mt-0 w-9 h-9 list-item text-a"></i>
-                  <i v-if="item.isOpen" class="fi fi-rr-angle-small-up text-4xl mt-0 w-9 h-9 list-item text-a"></i>
+                  <i v-if="!item.isOpen" class="fi fi-rr-angle-small-down text-3xl mt-0 w-[30px] h-[30px] list-item text-a"></i>
+                  <i v-if="item.isOpen" class="fi fi-rr-angle-small-up text-3xl mt-0 w-[30px] h-[30px] list-item text-a"></i>
                 </div>
               </div>
-              <div class="overflow-hidden transition-all max-h-0"
-                :class="{ 'max-h-full': item.isOpen, 'py-1': item.isOpen }">
-                <p class="text-a font-light text-sm">{{ item.info }}</p>
+              <div class="overflow-hidden max-h-0 transition-all duration-300"
+                :class="{ 'max-h-[500px]': item.isOpen }">
+                <p class="text-a font-extralight text-sm mb-2">{{ item.info }}</p>
               </div>
             </li>
           </ul>
         </div>
       </div>
       <!-- vision -->
-      <div class="font-extralight text-a text-center mt-5 text-sm lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
+      <div class="font-extralight text-a text-center mt-5 text-xs lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
         <p>
           Our vision is to revolutionize task management and productivity by
           providing a user-friendly app that simplifies lives and empowers 
@@ -45,6 +45,11 @@
   </section>
 </template>
 
+<script setup>
+const  data  = await useAsyncData(() => queryContent('/api/goalvision').findOne())
+
+</script>
+
 <script>
 export default {
   data() {
@@ -57,7 +62,6 @@ export default {
       ]
     }
   },
-
   methods: {
     OpenBox(item) {
       item.isOpen = !item.isOpen;

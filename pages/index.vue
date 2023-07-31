@@ -1,10 +1,11 @@
 <template>
-  <Home />
+  <HeroSection />
   <Aboutus />
+  <Features />
+  <Download />
+  <Faq />
 </template>
 
 <script setup>
-import Aboutus from '~/components/Aboutus.vue';
-
   useHead({title: "home"})
 </script>

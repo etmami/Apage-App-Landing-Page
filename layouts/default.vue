@@ -19,16 +19,45 @@ import Footer from '~~/components/Footer.vue';
 </script>
 
 <style>
-  *{
-    font-family: 'Inter', sans-serif;
+  * {
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  /* text-align: justify; */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar {
+    height:8px;
+    width: 6px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #C9ADA7;
+    border-radius: 2px;
+  }
+
+  /* For mozila */
+  /* @-moz-document url-prefix() {} */
+
+  /**********************/
+
+  a {
+    user-select: none;
   }
   img{
     pointer-events: none;
-  }
-  .nuxt-icon--fill, .nuxt-icon--fill * {
-    fill: none !important;
-  }
-  .nuxt-icon{
-    margin-bottom: 0;
   }
 </style>
