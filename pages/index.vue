@@ -1,6 +1,6 @@
 <template>
   <HeroSection />
-  <Aboutus />
+  <Goalvision />
   <Features />
   <Download />
   <Faq />

@@ -3,13 +3,13 @@
     <div class="container m-auto px-4">
       <!-- info for Features -->
       <div class="text-a text-center">
-        <h2 class="font-bold text-4xl lg:text-6xl">Key Features</h2>
-        <p class="font-extralight text-sm mt-3 lg:text-lg lg:w-1/2 lg:mt-4 lg:m-auto">Discover the power of our app's key features, designed to revolutionize your task management and boost your productivity</p>
+        <h2 class="font-bold text-4xl lg:text-6xl">{{ realData.info[0].title }}</h2>
+        <p class="font-extralight text-sm mt-3 lg:text-lg lg:w-1/2 lg:mt-4 lg:m-auto"> {{ realData.info[0].info }}</p>
       </div>
       <!-- list Features -->
       <div class="lg:mt-6">
         <ul class="lg:grid lg:grid-cols-2 lg:gap-6">
-          <li v-for="item in listdata" :key="item"
+          <li v-for="item in realData.data" :key="item"
             class="border border-a rounded-md px-5 py-[18px] max-h-full mt-6 lg:mt-0">
             <div class="flex justify-between items-center cursor-pointer">
               <h3 class="text-a font-medium flex items-center text-lg">
@@ -27,18 +27,7 @@
   </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      listdata: [
-        { title: "Streamlined Task Management", info: "Effortlessly manage tasks, projects, and deadlines with our streamlined task management feature." },
-        { title: "Streamlined Task Management", info: "Effortlessly manage tasks, projects, and deadlines with our streamlined task management feature." },
-        { title: "Streamlined Task Management", info: "Effortlessly manage tasks, projects, and deadlines with our streamlined task management feature." },
-        { title: "Streamlined Task Management", info: "Effortlessly manage tasks, projects, and deadlines with our streamlined task management feature." },
-        
-      ]
-    }
-  },
-}
+<script setup>
+  const data = await useAsyncData(() => queryContent('/api/features').findOne())
+  const realData = data.data
 </script>

@@ -1,8 +1,8 @@
 {
-  "info1": [
+  "info": [
     {
       "title": "Goal and vision",
-      "info": "Our goal at Tasky is to simplify task management boost productivity,and help users achieve their goals effortlessly."
+      "info": "Discover the power of our app's key features, designed to revolutionize your task management and boost your productivity"
     }
   ],
   "data": [
@@ -25,11 +25,6 @@
       "title": "Streamlined Task Management",
       "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
       "isOpen": false
-    }
-  ],
-  "info2": [
-    {
-      "vision": "Our vision is to revolutionize task management and productivity by providing a user-friendly app that simplifies lives and empowers users to achieve more."
     }
   ]
 }
