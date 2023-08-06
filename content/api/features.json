@@ -1,29 +1,37 @@
 {
   "info": [
     {
-      "title": "Goal and vision",
-      "info": "Discover the power of our app's key features, designed to revolutionize your task management and boost your productivity"
+      "title": "Key Features",
+      "info": "Discover the power of our app's key features, designed to revolutionize your task management and boost your productivity. With a user-friendly interface and intuitive design"
     }
   ],
   "data": [
     {
       "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "info": "Effortlessly manage tasks, projects, and deadlines with our streamlined task management feature. From creating tasks to setting priorities and deadlines",
+      "icon": "fi fi-br-list-check",
+
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Seamless Collaboration",
+      "info": "Foster effective collaboration with our seamless collaboration feature. Share tasks, communicate with team members in real-time",
+      "icon": "fi fi-br-list-check",
+
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Customizable Workflows",
+      "info": "Tailor the app to match your unique preferences and workflows. Our customizable workflows feature allows you to adapt the app to your specific needs ",
+      "icon": "fi fi-br-list-check",
+
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Automated Reminders",
+      "info": "Never miss a deadline again with our automated reminders. Stay on track and never overlook important tasks with timely reminders and notifications",
+      "icon": "fi fi-br-list-check",
+
       "isOpen": false
     }
   ]

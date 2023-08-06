@@ -7,5 +7,5 @@
 </template>
 
 <script setup>
-  useHead({title: "home"})
+  useHead({title: "Home"})
 </script>

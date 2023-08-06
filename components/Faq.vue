@@ -8,10 +8,10 @@
       <!-- list Features -->
       <div class="mt-16">
         <ul>
-          <li v-for="item in realData.data" :key="item" @click="OpenBox(item)" class="border-2 border-a rounded-md px-4 py-2 lg:py-4 max-h-full mt-6 lg:mb-4">
+          <li v-for="item in realData.data" :key="item" @click="OpenBox(item)" class="border-2 border-a rounded-md px-4 py-4 lg:py-4 max-h-full mt-6 lg:mb-4">
             <div class="flex justify-between items-center cursor-pointer">
-              <h3 class="text-a font-medium flex items-center lg:text-lg select-none">
-                <i class="fi fi-br-life-ring text-lg w-[18px] h-[18px] mr-2 relative bottom-[2px]"></i>
+              <h3 class="text-a font-medium flex items-start lg:text-lg select-none">
+                <i class="fi fi-br-life-ring text-lg w-[18px] h-[18px] mr-2 mt-1 relative bottom-[2px]"></i>
                 {{ item.title }}</h3>
               <div>
                 <i v-if="!item.isOpen" class="fi fi-rr-plus-small text-4xl mt-0 w-9 h-9 list-item text-a"></i>
@@ -20,7 +20,7 @@
             </div>
             <div class="overflow-hidden max-h-0 transition-all duration-300 ml-[26px]"
               :class="{ 'max-h-[500px]': item.isOpen }">
-              <p class="text-a font-extralight text-base">{{ item.info }}</p>
+              <p class="text-a font-extralight text-base mt-1">{{ item.info }}</p>
             </div>
           </li>
         </ul>

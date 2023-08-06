@@ -6,23 +6,33 @@
   ],
   "data": [
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "How can I get started with the app?",
+      "info": "Getting started is easy! Simply download the app from the App Store or Google Play Store, create an account, and follow the on-screen instructions to set up your profile. You'll be up and running in no time.",
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Can I use the app on multiple devices?",
+      "info": "Yes, you can use the Tasky app on multiple devices. The app is designed to be compatible with various devices and supports seamless synchronization across them. You can access your tasks and updates on all your connected devices using the same Tasky account without any issues. This feature helps you stay organized and efficient while switching between different devices.",
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Is my data secure in the app?",
+      "info": "Yes, your data is secure in the Tasky app. Tasky employs encryption, secure authentication, and data storage measures to protect your information. Regular updates and a clear privacy policy further enhance data security. However, it's essential to practice good security habits to ensure maximum protection.",
       "isOpen": false
     },
     {
-      "title": "Streamlined Task Management",
-      "info": "Our app aims to offer a streamlined and intuitive platform for managing tasks, projects, and deadlines. Users can easily create, assign, and track tasks, ensuring efficient task management.",
+      "title": "Can I collaborate with others using the app?",
+      "info": "Yes, you can collaborate with others using the Tasky app. It allows you to share tasks, receive real-time updates, leave comments, assign tasks to team members, and track task completion. Collaboration features enhance group productivity and teamwork.",
+      "isOpen": false
+    },
+    {
+      "title": "Can I customize the app to fit my workflow?",
+      "info": "Yes, you can customize the Tasky app to fit your workflow. Tasky is designed to be flexible and adaptable, allowing users to tailor the app to their individual preferences and needs. You can customize task categories, labels, priorities, reminders, notifications, and even the app's appearance through themes and layouts. This customization enables you to align Tasky with your work style and optimize its use to enhance productivity and organization.",
+      "isOpen": false
+    },
+    {
+      "title": "Is there a way to track my productivity and progress?",
+      "info": "Tasky provides several ways to track your productivity and progress. You can mark tasks as completed, set due dates and reminders, review task history, access task analytics, and generate progress reports. These features help you stay organized, monitor your performance, and identify areas for improvement, ultimately enhancing your productivity.",
       "isOpen": false
     }
   ],

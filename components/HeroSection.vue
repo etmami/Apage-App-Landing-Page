@@ -6,7 +6,7 @@
           <h2 class="font-black text-5xl leading-[55px]">{{data.title}}</h2>
           <p class="mt-2 font-light">{{data.description}}</p>
           <div class="mt-4">
-            <NuxtLink class="border border-a py-2 px-6 inline-block bg-a text-e rounded-md mr-2" to="#">Download</NuxtLink>
+            <NuxtLink class="border border-a py-2 px-6 inline-block bg-a text-e rounded-md mr-2" to="#download">Download</NuxtLink>
             <NuxtLink class="border border-a py-2 px-6 inline-block rounded-md ml-2" to="#">About us</NuxtLink>
           </div>
         </div>

@@ -25,14 +25,14 @@
                 </div>
               </div>
               <div class="overflow-hidden max-h-0 transition-all duration-300" :class="{ 'max-h-[500px]': item.isOpen }">
-                <p class="text-a font-extralight text-sm mb-2">{{ item.info }}</p>
+                <p class="text-a font-extralight text-sm">{{ item.info }}</p>
               </div>
             </li>
           </ul>
         </div>
       </div>
       <!-- vision -->
-      <div class="font-extralight text-a text-center mt-5 text-xs lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
+      <div class="font-extralight text-a text-center mt-5 text-sm lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
         <p>{{ realData.info2[0].vision }}</p>
       </div>
       <div class="text-center mt-10">

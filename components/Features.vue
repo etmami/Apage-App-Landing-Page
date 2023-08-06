@@ -13,7 +13,7 @@
             class="border border-a rounded-md px-5 py-[18px] max-h-full mt-6 lg:mt-0">
             <div class="flex justify-between items-center cursor-pointer">
               <h3 class="text-a font-medium flex items-center text-lg">
-                <i class="fi fi-br-list-check text-lg w-[18px] h-[18px] mr-2 relative bottom-[2px]"></i>
+                <i :class="item.icon + ` ` + `text-lg w-[18px] h-[18px] mr-2 relative bottom-[2px]`"></i>
                 {{ item.title }}
               </h3>
             </div>

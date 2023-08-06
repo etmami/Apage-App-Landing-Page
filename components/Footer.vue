@@ -22,7 +22,7 @@
       <section class="container m-auto">
         <div class="text-center lg:flex justify-between py-[22.5px]">
           <p class="font-extralight text-white">{{ realData.info2[0].copyright }}</p>
-          <NuxtLink class="font-extralight text-white" to="#">Privacy Policy</NuxtLink>
+          <NuxtLink class="font-extralight text-white hidden lg:block" to="#">Privacy Policy</NuxtLink>
         </div>
       </section>
     </section>
