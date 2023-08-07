@@ -1,12 +1,12 @@
 <template>
   <footer class="">
-    <section class="flex justify-center items-center py-14 bg-a">
+    <section class="flex justify-center items-center py-14 bg-basic">
       <div class="text-center w-2/3 lg:w-[450px]">
         <p class="text-white font-extralight text-lg leading-[33px]">{{ realData.info1[0].description }}</p>
-        <NuxtLink class="border py-2 px-6 inline-block bg-white text-a rounded-md mr-2 mt-6" to="#download">Download</NuxtLink>
+        <NuxtLink class="border py-2 px-6 inline-block bg-white text-basic rounded-md mr-2 mt-6" to="#download">Download</NuxtLink>
       </div>
     </section>
-    <section class="bg-a">
+    <section class="bg-basic">
       <section class="flex justify-center items-center container m-auto border-b">
         <div>
           <ul class="flex text-2xl text-white">

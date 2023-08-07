@@ -2,7 +2,7 @@
   <section id="aboutus" class="py-28 scroll-mt-2">
     <div class="container m-auto px-4">
       <!-- Goal and vision -->
-      <div class="text-a text-center">
+      <div class="text-basic text-center">
         <h2 class="font-bold text-4xl lg:text-6xl">{{ realData.info1[0].title }}</h2>
         <p class="font-extralight text-sm mt-3 lg:text-lg lg:w-1/2 lg:mt-4 lg:m-auto">{{ realData.info1[0].info }}</p>
       </div>
@@ -14,29 +14,29 @@
         <div class="lg:w-1/2">
           <ul>
             <li v-for="item in realData.data" :key="item.title" @click="OpenBox(item)"
-              class="border border-a rounded-md px-3 py-3 max-h-full mt-4 lg:mt-0 lg:mb-4">
+              class="border border-basic rounded-md px-3 py-3 max-h-full mt-4 lg:mt-0 lg:mb-4">
               <div class="flex justify-between items-center cursor-pointer">
-                <h3 class="text-a font-medium select-none">{{ item.title }}</h3>
+                <h3 class="text-basic font-medium select-none">{{ item.title }}</h3>
                 <div>
                   <i v-if="!item.isOpen"
-                    class="fi fi-rr-angle-small-down text-3xl mt-0 w-[30px] h-[30px] list-item text-a"></i>
+                    class="fi fi-rr-angle-small-down text-3xl mt-0 w-[30px] h-[30px] list-item text-basic"></i>
                   <i v-if="item.isOpen"
-                    class="fi fi-rr-angle-small-up text-3xl mt-0 w-[30px] h-[30px] list-item text-a"></i>
+                    class="fi fi-rr-angle-small-up text-3xl mt-0 w-[30px] h-[30px] list-item text-basic"></i>
                 </div>
               </div>
               <div class="overflow-hidden max-h-0 transition-all duration-300" :class="{ 'max-h-[500px]': item.isOpen }">
-                <p class="text-a font-extralight text-sm">{{ item.info }}</p>
+                <p class="text-basic font-extralight text-sm">{{ item.info }}</p>
               </div>
             </li>
           </ul>
         </div>
       </div>
       <!-- vision -->
-      <div class="font-extralight text-a text-center mt-5 text-sm lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
+      <div class="font-extralight text-basic text-center mt-5 text-sm lg:text-lg lg:w-1/2 lg:m-auto lg:mt-7">
         <p>{{ realData.info2[0].vision }}</p>
       </div>
       <div class="text-center mt-10">
-        <NuxtLink class="text-a text-lg border border-a py-3 px-6 rounded-md hover:bg-a hover:text-white transition-all"
+        <NuxtLink class="text-basic text-lg border border-basic py-3 px-6 rounded-md hover:bg-basic hover:text-white transition-all"
           to="#">About us</NuxtLink>
       </div>
     </div>

@@ -1,16 +1,16 @@
 <template>
-  <header class="border-b border-c sticky top-0 z-50 bg-white">
+  <header class="border-b border sticky top-0 z-50 bg-white">
     <!-- desktop -->
     <section class="h-24 hidden items-center justify-between container mx-auto px-4 lg:px-0 md:flex">
       <div class="logo">
         <img class="w-16" src="~assets/img/logoaage.png">
       </div>
       <nav>
-        <ul class="flex text-a font-normal text-lg">
+        <ul class="flex text-basic font-normal text-lg">
           <li v-for="item in link" :key="item"><NuxtLink class="px-4 py-6 mx-2 hover:font-normal transition-all" :to=item.link>{{item.title}}</NuxtLink></li>
         </ul>
       </nav>
-      <NuxtLink class="py-2 px-7 rounded-lg bg-b font-medium text-lg text-a" to="#download">Download</NuxtLink>
+      <NuxtLink class="py-2 px-7 rounded-lg bg-secondary font-medium text-lg text-basic" to="#download">Download</NuxtLink>
     </section>
     <!-- ------ -->
   
@@ -21,16 +21,16 @@
           <img class="w-16" src="~assets/img/logoaage.png">
         </div>
         <div>
-          <i @click="Navbar" class="fi fi-br-menu-burger text-4xl w-9 h-9 inline-block text-a"></i>
+          <i @click="Navbar" class="fi fi-br-menu-burger text-4xl w-9 h-9 inline-block text-basic"></i>
         </div>
       </div>
-      <div ref="navbar" class="fixed top-24 left-0 right-0 w-full text-center bg-e px-5 overflow-hidden max-h-0 transition-all duration-300">
+      <div ref="navbar" class="fixed top-24 left-0 right-0 w-full text-center bg-white px-5 overflow-hidden max-h-0 transition-all duration-300">
         <nav>
-          <ul class="text-a font-medium">
+          <ul class="text-basic font-medium">
             <li v-for="item in link" :key="item"><NuxtLink @click="Navbar" class="inline-block w-full py-6" :to=item.link>{{ item.title }}</NuxtLink></li>
           </ul>
         </nav>
-        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-b" to="#download">Download</NuxtLink>
+        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-secondary" to="#download">Download</NuxtLink>
       </div>
     </section>
     <!-- ------- -->
