@@ -1,16 +1,15 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   app: {
-    head: {
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' },
-        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/etmami/flaticon-uicons/uicons.css' }
-      ]
-    }
+    buildAssetsDir: 'nuxt',
   },
+  ssr: true,
+  // https://github.com/nuxt-themes/docus
+  extends: '@nuxt-themes/docus',
+  
   modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/content',
-  ],
+    // https://github.com/nuxt-modules/plausible
+    '@nuxtjs/plausible',
+    // https://github.com/nuxt/devtools
+    '@nuxt/devtools'
+  ]
 })
