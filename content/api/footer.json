@@ -1,5 +1,5 @@
 {
-  "info1": [
+  "SectionOne": [
     {
       "description": "Experience a unique and effortless way to manage your daily tasks with our innovative task management app."
     }
@@ -26,7 +26,7 @@
       "link": "#"
     }
   ],
-  "info2": [
+  "SectionTwo": [
     {
       "copyright": "Copyright 2023, All Rights Reserved"
     }

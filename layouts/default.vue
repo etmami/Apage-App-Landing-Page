@@ -45,7 +45,7 @@ import Footer from '~~/components/Footer.vue';
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background-color: #C9ADA7;
+    background-color: #8ecae6;
     border-radius: 2px;
   }
 

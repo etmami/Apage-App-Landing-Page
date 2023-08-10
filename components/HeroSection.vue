@@ -7,7 +7,7 @@
           <p class="mt-2 font-light">{{data.description}}</p>
           <div class="mt-4">
             <NuxtLink class="border border-basic py-2 px-6 inline-block bg-basic text-white rounded-md mr-2" to="#download">Download</NuxtLink>
-            <NuxtLink class="border border-basic py-2 px-6 inline-block rounded-md ml-2" to="#">About us</NuxtLink>
+            <NuxtLink class="border border-basic py-2 px-6 inline-block rounded-md ml-2" to="#aboutus">About us</NuxtLink>
           </div>
         </div>
         <div class="mt-20">
