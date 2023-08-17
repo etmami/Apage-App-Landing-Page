@@ -9,7 +9,7 @@
       <!-- img & List Goal -->
       <div class="lg:flex lg:justify-center lg:mt-7">
         <div class="mt-5 lg:w-1/2 lg:mt-0 lg:mr-3">
-          <img class="rounded-md " src="/assets/img/pexels-andrea-piacquadio-3800497.jpg">
+          <img class="rounded-md " src="~assets/img/pexels-andrea-piacquadio-3800497.jpg">
         </div>
         <div class="lg:w-1/2">
           <ul>
@@ -37,7 +37,7 @@
       </div>
       <div class="text-center mt-10">
         <NuxtLink class="text-basic text-lg border border-basic py-3 px-6 rounded-md hover:bg-basic hover:text-white transition-all"
-          to="/aboutus/">About us</NuxtLink>
+          to="/article/aboutus">About us</NuxtLink>
       </div>
     </div>
   </section>

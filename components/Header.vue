@@ -30,7 +30,7 @@
             <li v-for="item in link" :key="item"><NuxtLink @click="Navbar" class="inline-block w-full py-6" :to=item.link>{{ item.title }}</NuxtLink></li>
           </ul>
         </nav>
-        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-secondary" to="#download">Download</NuxtLink>
+        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-secondary" to="/#download">Download</NuxtLink>
       </div>
     </section>
     <!-- ------- -->
@@ -43,9 +43,9 @@ export default {
     return {
       link: [
         { title: "Home", link: "/" },
-        { title: "About us", link: "#aboutus" },
-        { title: "Features", link: "#features" },
-        { title: "FaQ", link: "#faq" },
+        { title: "About us", link: "/#aboutus" },
+        { title: "Features", link: "/#features" },
+        { title: "FaQ", link: "/#faq" },
       ]
     }
   },

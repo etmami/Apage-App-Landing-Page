@@ -11,12 +11,12 @@
           </div>
         </div>
         <div class="mt-20">
-          <img class="w-24 m-auto lg:m-0" src="/assets/img/numdownload.png">
+          <img class="w-24 m-auto lg:m-0" src="~assets/img/numdownload.png">
           <p class="text-basic font-light mt-2">{{data.user}}</p>
         </div>
       </div>
       <div class="mt-11 lg:mt-0">
-        <img class="w-64 m-auto" src="/assets/img/appimg.png">
+        <img class="w-64 m-auto" src="~assets/img/appimg.png">
       </div>
     </div>
   </section>
