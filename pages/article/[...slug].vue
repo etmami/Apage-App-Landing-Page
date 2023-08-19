@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-3xl m-auto p-10 lg:mt-10 text-basic">
     <h1 class="text-basic text-5xl lg:text-[58px]  font-semibold mb-10">{{ data.title }}</h1>
-    <ContentDoc class="article prose-xl" />
+    <ContentDoc class="article prose-basic prose-lg lg:prose-xl" />
   </section>
 </template>
 
