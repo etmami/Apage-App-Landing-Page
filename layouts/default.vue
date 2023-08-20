@@ -3,6 +3,7 @@
     <Header />
     <main>
       <slot />
+      <Scroll />
     </main>
     <Footer />
   </div>
@@ -45,7 +46,7 @@ import Footer from '~~/components/Footer.vue';
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background-color: #8ecae6;
+    background-color: #023047;
     border-radius: 2px;
   }
 

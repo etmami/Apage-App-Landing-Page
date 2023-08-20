@@ -10,7 +10,7 @@
           <li v-for="item in link" :key="item"><NuxtLink class="px-4 py-6 mx-2 hover:font-normal transition-all" :to=item.link>{{item.title}}</NuxtLink></li>
         </ul>
       </nav>
-      <NuxtLink class="py-2 px-7 rounded-lg bg-secondary font-medium text-lg text-basic" to="#download">Download</NuxtLink>
+      <NuxtLink class="py-2 px-7 rounded-lg bg-basic font-medium text-lg text-white" to="#download">Download</NuxtLink>
     </section>
     <!-- ------ -->
   
@@ -30,7 +30,7 @@
             <li v-for="item in link" :key="item"><NuxtLink @click="Navbar" class="inline-block w-full py-6" :to=item.link>{{ item.title }}</NuxtLink></li>
           </ul>
         </nav>
-        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-secondary" to="/#download">Download</NuxtLink>
+        <NuxtLink  @click="Navbar" class="py-3 px-6 w-full rounded-lg mt-4 inline-block bg-basic text-white" to="/#download">Download</NuxtLink>
       </div>
     </section>
     <!-- ------- -->
