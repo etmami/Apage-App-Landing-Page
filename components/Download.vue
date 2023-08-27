@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="hidden lg:block">
-        <img class="w-96" src="~assets/img/appimg.png">
+        <img class="w-96" src="~assets/img/downloadimg.png">
       </div>
     </div>
   </section>

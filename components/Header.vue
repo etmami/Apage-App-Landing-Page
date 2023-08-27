@@ -3,7 +3,7 @@
     <!-- desktop -->
     <section class="h-24 hidden items-center justify-between container mx-auto px-4 lg:px-0 md:flex">
       <div class="logo">
-        <img class="w-16" src="~assets/img/logoaage.png">
+        <img class="w-16" src="~assets/img/logo.png">
       </div>
       <nav>
         <ul class="flex text-basic font-normal text-lg">
@@ -18,7 +18,7 @@
     <section class="h-24 flex items-center justify-between container mx-auto px-4 lg:px-0 md:hidden">
       <div class="flex justify-between items-center w-full">
         <div class="logo">
-          <img class="w-16" src="~assets/img/logoaage.png">
+          <img class="w-16" src="~assets/img/logo.png">
         </div>
         <div>
           <i @click="Navbar" class="fi fi-br-menu-burger text-4xl w-9 h-9 inline-block text-basic"></i>
