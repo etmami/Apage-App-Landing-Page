@@ -33,8 +33,8 @@ export default defineAppConfig({
     footer: {
       credits: {
         icon: '',
-        text: 'From Etmami Store',
-        href: 'https://themeforest.net/user/etmamistore',
+        text: 'From Etmami',
+        href: 'https://themeforest.net/user/etmami',
       }
     },
   }

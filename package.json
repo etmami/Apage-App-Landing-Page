@@ -6,6 +6,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
+    "gfirebase":"NUXT_APP_BASE_URL=/apage/docs/ npx nuxi generate",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
