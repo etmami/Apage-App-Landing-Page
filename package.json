@@ -5,8 +5,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "gfirebase":"NUXT_APP_BASE_URL=/apage/preview/ npx nuxi generate"
   },
   "devDependencies": {
     "@nuxt/content": "^2.7.2",
