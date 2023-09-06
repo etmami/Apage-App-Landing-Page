@@ -25,9 +25,9 @@
           </li>
         </ul>
         <div>
-          <p class="font-extralight text-sm text-center mt-7 lg:text-xl lg:mt-9">OR</p>
+          <p class="font-extralight text-sm text-center mt-7 lg:text-xl lg:mt-9 text-basic">OR</p>
           <div class="text-center lg:flex lg:items-center lg:justify-center">
-            <p class="font-extralight text-sm text-center mt-7 lg:text-lg lg:mr-3">Can not find what you are looking for?</p>
+            <p class="font-extralight text-sm text-center mt-7 lg:text-lg lg:mr-3 text-basic">Can not find what you are looking for?</p>
             <a class="inline-block mt-7 text-basic text-lg border border-basic py-3 px-6 rounded-md hover:bg-basic hover:text-white transition-all" :href="`mailto:` + realData.SectionTwo[0].email">Email us</a>
           </div>
         </div>
