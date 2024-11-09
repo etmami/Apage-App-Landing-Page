@@ -1,0 +1,30 @@
+{
+  "SectionOne": [
+    {
+      "title": "Key Features",
+      "description": "A general description of your application features"
+    }
+  ],
+  "FeaturesList": [
+    {
+      "title": "The first feature: a short title",
+      "description": "Average description of the mentioned feature",
+      "icon": "fi fi-br-list-check"
+    },
+    {
+      "title": "The second feature: a short title",
+      "description": "Average description of the mentioned feature",
+      "icon": "fi fi-sr-users"
+    },
+    {
+      "title": "The third feature: a short title",
+      "description": "Average description of the mentioned feature",
+      "icon": "fi fi-sr-file-edit"
+    },
+    {
+      "title": "The fourth feature: a short title",
+      "description": "Average description of the mentioned feature",
+      "icon": "fi fi-sr-bells"
+    }
+  ]
+}

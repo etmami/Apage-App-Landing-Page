@@ -1,0 +1,34 @@
+{
+  "SectionOne": [
+    {
+      "description": "Medium Description To attract more users to download your application"
+    }
+  ],
+  "socialMedia": [
+    {
+      "title": "twitter",
+      "icon": "fi fi-brands-twitter",
+      "link": "#"
+    },
+    {
+      "title": "facebook",
+      "icon": "fi fi-brands-facebook",
+      "link": "#"
+    },
+    {
+      "title": "instagram",
+      "icon": "fi fi-brands-instagram",
+      "link": "#"
+    },
+    {
+      "title": "tiktok",
+      "icon": "fi fi-brands-tik-tok",
+      "link": "#"
+    }
+  ],
+  "SectionTwo": [
+    {
+      "copyright": "Copyright 2023, All Rights Reserved"
+    }
+  ]
+}
